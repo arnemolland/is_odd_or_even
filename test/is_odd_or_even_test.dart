@@ -11,7 +11,7 @@ void main() {
       number = 1;
     });
 
-    test('First Test', () {
+    test('isOddOrEven() returns true if number is odd or even', () {
       expect(isOddOrEven(number), isTrue);
     });
   });
